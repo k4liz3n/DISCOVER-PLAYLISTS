@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Playlist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Discover New Music</h1>
+        <p>Log in with Spotify to generated a playlist of new music recommendations based on your top tracks.</p>
+        <a href="{{ url_for('login') }}" class="button">Log in with Spotify</a>
+    </div>
+    <center>
+        <div class="instagram">
+            <a href="https://www.instagram.com/luciawav_/" target="_blank"><i class="ri-instagram-line"></i></a>
+        </div>
+    </center>
+</body>
+</html>
