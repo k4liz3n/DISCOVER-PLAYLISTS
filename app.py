@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Cambia esto a una clave más segura en producción
 
 # Configuración
-CLIENT_ID = '71a4864d55fd48d3bf5153b1e596ca01'
-CLIENT_SECRET = '63a715c246674947be730b392bc18b86'
+CLIENT_ID = 'CLIENT-ID'
+CLIENT_SECRET = 'CLIENT_SECRET'
 REDIRECT_URI = 'http://127.0.0.1:5000/callback'
 SCOPE = 'user-library-read user-top-read playlist-modify-public'
 
